@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daenney's GPG key</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="gpg">GPG</h1>
+      <p>This repository contains my GPG public key, <a href="https://raw.githubusercontent.com/daenney/gpg/gh-pages/daenney.asc">0x18D40820FA0EE03C</a>. It is also available on the GnuPG/sks-keyservers pool of keyservers to ease fetching the key and verifying/encrypting against it. I'll keep syncing signatures that get added back to the key in this repository and this repository should be considered the authoritative source.</p>
+      <p>It has only one uid, <em>Daniele Sluijters</em> with no associated emails. This key is supposed to be used to verify that a message is from me, or encrypt content for my eyes only. However, who am I is not defined by my email address. As such there will not be multiple uid's with different addresses. A message signed by this key can be authenticated as coming from me.</p>
+      <h2 id="key-creation">Key creation</h2>
+      <p>The master key was created directly on an encrypted USB drive which is stored somewhere only I have access to. A number of copies of the revocation certificate have been stored in the event of a key compromise or loss.</p>
+      <p>The three subkeys were created directly on a Yubikey and have never left the device.</p>
+      <p>I deem this setup to be secure enough for daily use and be reasonably friendly with regards to managing the full lifecycle of the associated keys.</p>
+    </div>
+  </body>
+</html>
